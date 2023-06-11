@@ -1,8 +1,8 @@
 package com.example.firstappspringsecurity.services;
 
-import com.example.firstappspringsecurity.controllers.AuthenticationRequest;
-import com.example.firstappspringsecurity.controllers.AuthenticationResponse;
-import com.example.firstappspringsecurity.controllers.RegisterRequest;
+import com.example.firstappspringsecurity.DTOs.AuthenticationRequest;
+import com.example.firstappspringsecurity.DTOs.AuthenticationResponse;
+import com.example.firstappspringsecurity.DTOs.RegisterRequest;
 import com.example.firstappspringsecurity.entities.UserInfo;
 import com.example.firstappspringsecurity.repositories.UserRepository;
 import com.example.firstappspringsecurity.security.JwtService;
@@ -10,12 +10,8 @@ import com.example.firstappspringsecurity.security.UserInfoDetails;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import javax.management.relation.Role;
 
 @Service
 @RequiredArgsConstructor

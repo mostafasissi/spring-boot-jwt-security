@@ -1,5 +1,8 @@
 package com.example.firstappspringsecurity.controllers;
 
+import com.example.firstappspringsecurity.DTOs.AuthenticationRequest;
+import com.example.firstappspringsecurity.DTOs.AuthenticationResponse;
+import com.example.firstappspringsecurity.DTOs.RegisterRequest;
 import com.example.firstappspringsecurity.services.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

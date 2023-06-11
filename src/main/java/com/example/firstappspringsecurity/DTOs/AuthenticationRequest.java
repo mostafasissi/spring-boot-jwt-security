@@ -1,4 +1,4 @@
-package com.example.firstappspringsecurity.controllers;
+package com.example.firstappspringsecurity.DTOs;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
